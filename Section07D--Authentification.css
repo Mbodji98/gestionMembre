@@ -1,0 +1,77 @@
+body{
+	background-color:#808080;
+	font-size: 1rem;
+}
+#connexion{
+	text-align:center;
+	margin:auto;
+}
+h1{
+	width: 100%;
+}
+.logo{
+	 width:70px;
+	 height:70px;
+	 border-radius: 100px/100px;
+	 box-shadow:  0px -5px 5px black;
+}
+#section07D{
+	position: relative;
+	top: -25px;
+	margin: 10px;
+}
+#nomUtilisateur{
+	margin-left: 60px;
+	width: 250px;
+	height:20px;
+	box-shadow:0px 0px 0px black inset;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+#user{
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+	margin-right: 10px;
+}
+#MotDePasse{
+	margin-left:87px;
+	width: 250px;
+	height: 20px;
+	box-shadow:0px 0px 0px black inset;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+#pass{
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+	margin-right: 10px;
+}
+#boutons{
+	margin-top:50px;
+}
+.bouton{
+	color: #00008b;
+	cursor: pointer;
+	box-shadow: 0px 2px 2px 0px black;
+}
+#valider{
+	margin-right: 50px;
+}
+#annuler{
+	margin-left:150px;
+}
+@media all and (max-width: 1024px){
+			#connexion
+			{
+				text-align: ;
+				width: 100%;
+				margin-left: 5px;
+			}
+			h1
+			{
+				font-size: 1rem;
+			}
+
+}

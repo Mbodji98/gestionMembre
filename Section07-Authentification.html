@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>SECTION07--Authentification</title>
+		<link rel="stylesheet" href="Section07D--Authentification.css">
+	</head>
+	<body>
+		<div id="connexion">
+			<header>
+				<h1><img src="logoDMWM.jpg" alt="logo" class="logo"/><span id="section07D">Section07D--Authentification</span><img src="logoDMWM.jpg" alt="logo" class="logo"/></h1><br/>
+			</header>
+
+			<form method="post" action="baseDonnees.php">
+				<p>
+					<label for="nomUtilisateur"><img src="user.ico" alt="ico_user" id="user">Nom d'utilisateur</label><input type="text" name="nomUtilisateur" id="nomUtilisateur" placeholder="Login"/>
+				</p><br/>
+	
+				<p>
+					<label for="MotDePasse"><img src="pass.ico" alt="ico_pass" id="pass">Mot de passe</label><input type="password" name="Mot de passe" id="MotDePasse" placeholder="Mot de passe">
+				</p>
+
+			</form><br/>
+
+			<div id="boutons">
+				<form method="post" action="baseDonnees.php">
+					<input type="submit" name="Valider" value="Valider" class="bouton" id="valider" />
+					<input type="reset" name="Annuler" value="Annuler" class="bouton" id="annuler" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
